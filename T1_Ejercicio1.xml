@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE agenda>
+
+<agenda>
+
+    <persona>
+    
+        <nombre>Alejandro</nombre>
+        <apellidos> Rodriguez Gallardo</apellidos>
+        <direccion> C/Lenguaje de Marcas Nº14</direccion>
+        <telefono>
+        
+            <telef_fijo> 588555698</telef_fijo>
+            <telef_movil> 452585527</telef_movil>
+            <telef_trabajo> 575858585</telef_trabajo>
+        
+        </telefono>    
+    
+    </persona>
+
+</agenda>
+

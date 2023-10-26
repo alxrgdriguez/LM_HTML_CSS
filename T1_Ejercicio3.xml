@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE cicloFormativo>
+
+<cicloFormativo nombre="ASIR">
+
+    <modulo>
+    
+        <nombre>Lenguajes de Marcas y Sistemas de Gestión de Información</nombre>
+        <horasSemanales> 4 </horasSemanales>
+        <inicioModulo>15 de septiembre 2010</inicioModulo>
+        <finModulo> 30 Junio de 2011</finModulo>
+        <caracter>Obligatorio</caracter>
+
+    </modulo>
+
+    <alumnos>
+
+        <alumno>
+            <nombre>Ana Fernández Gutiérrez</nombre>
+            <nif>16965696L</nif>
+            <telefono>789654321</telefono>
+            <email>ana.fdezgtrrez@hotmail.com</email>
+            <direccion>C/ El Percebe de Santander CP39302</direccion>
+            <nota>Sin datos</nota>
+            <asistencia>No hay informacion</asistencia>
+
+        </alumno>
+
+          <alumno>
+            <nombre>Pepito Grillo</nombre>
+            <nif>98765432H</nif>
+            <telefono>656566555</telefono>
+            <email>yhyh@yahoo.com</email>
+            <direccion>Avd. El Pez, 5 de Suances CP 39401</direccion>
+            <nota>APTO</nota>
+            <asistencia>Sin faltas de asistencia</asistencia>
+
+        </alumno>
+
+
+
+
+    </alumnos>
+    
+
+
+
+
+
+
+
+
+</cicloFormativo>
