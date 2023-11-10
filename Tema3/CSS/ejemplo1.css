@@ -1,0 +1,44 @@
+html{
+
+    background-color: azure;
+
+}
+
+
+p:hover{
+
+
+    background-color:yellow;
+    transition: 3s;
+    border:black 1px solid;
+
+}
+
+#parrafo1{
+
+    color: blueviolet;
+    font-size: 50px
+
+}
+
+
+#parrafo2{
+
+    color: brown;
+    font-size: 40px;
+
+}
+
+#parrafo3{
+
+    color: chartreuse;
+    font-size: 30px;
+
+}
+
+#parrafo4{
+
+    color: black;
+    font-size: 20px;
+
+}
