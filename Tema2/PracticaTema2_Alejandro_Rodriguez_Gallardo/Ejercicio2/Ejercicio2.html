@@ -1,57 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alejandro Rodríguez Gallardo</title>
 </head>
+
 <body>
 
     <h3>Ejercicio2 - Parte A</h3>
 
     <form>
 
-    <fieldset>
-        Nombre <br />
-        <input type="text" name="nombre" value="" size="30" maxlength="" />
+        <fieldset>
 
-        <br />
+            Nombre <br />
+            <input type="text" name="nombre" value="" size="30" maxlength="" />
 
-        Apellidos <br />
-        <input type="text" name="apellidos" value="" size="30" maxlength="" />
+            <br />
 
-        <br />
+            Apellidos <br />
+            <input type="text" name="apellidos" value="" size="30" maxlength="" />
 
-        Correo electrónico<br />
-        <input type="email" name="gmail" value="" size="30"  maxlength="" />
+            <br />
 
-        <br />
+            Correo electrónico<br />
+            <input type="email" name="gmail" value="" size="30" maxlength="" />
 
-        Numero de comensales<br />
-        <input type="number" name="numero" value="" size="30"  maxlength="" />
+            <br />
 
-        <br />
+            Numero de comensales<br />
+            <input type="number" name="numero" value="" size="30" maxlength="" />
 
-    </fieldset>
+            <br />
 
-
-    <h3>Ejercicio2 - Parte B</h3>
-
-    <fieldset>
-    <label>Elija la comida</label> <br>
-    <select id="seleccionar" name="seleccionar">
-      <optgroup label="Comidas">
-        <option value="Elegir_Opcion" selected="selected">------</option>
-        <option value="Desayuno">Desayuno</option>
-        <option value="Comida">Comida</option>
-        <option value="Cena">Cena</option>
-      
-      </optgroup>
-
-    </fieldset>
+        </fieldset>
 
 
-    
-    
+        <h3>Ejercicio2 - Parte B</h3>
+
+        <fieldset>
+            <label>Elija la comida</label> <br>
+            <select id="seleccionar" name="seleccionar">
+                <optgroup label="Comidas">
+                    <option value="Elegir_Opcion" selected="selected">------</option>
+                    <option value="Desayuno">Desayuno</option>
+                    <option value="Comida">Comida</option>
+                    <option value="Cena">Cena</option>
+
+                </optgroup>
+            </select>
+        </fieldset>
+
+        <h3>Ejercicio2 - Parte C</h3>
+
+        <fieldset>
+
+            <label>Introduzca la fecha</label> <br>
+
+            <input type="date" name="fecha" id="fecha">
+
+        </fieldset>
+
+        <h3>Ejercicio2 - Parte D</h3>
+
+
+        <fieldset>
+
+            Zona Terraza
+            <input type="radio" name="radio" checked>
+
+            <br>
+
+            Zona Interior
+            <input type="radio" name="radio">
+
+        </fieldset>
+
+        <h3>Ejercicio2 - Parte E</h3>
+
+        <fieldset>
+
+
+            Música en vivo
+            <input type="checkbox" name="verificacion" id="verificado">
+
+            <br>
+
+            Camarero Personalizado
+            <input type="checkbox" name="camararero" id="camarero">
+
+            <br>
+
+            Barra libre tras la comida
+            <input type="checkbox" name="barra_libre" id="barra_libre">
+
+            <br>
+
+            Otros
+            <input type="checkbox" name="otros" id="otros">
+
+            <br>
+
+        </fieldset>
+
+
+        <h3>Ejercicio2 - Parte F</h3>
+
+        <fieldset>
+
+            <label>Escriba su comentario</label>
+            <textarea rows="5" cols="100"></textarea><br><br>
+            <input type="submit" value="Enviar Comentario">
+
+        </fieldset>
+
+        <h3>Ejercicio2 - Parte G</h3>
+
+        <fieldset>
+        Telefono
+        <input type="number" name="" id="" size="9"> <br>
+
+        Correo electrónico
+        <input type="email" name=""> <br>
+
+        <br>
+        <input type="submit" name="enviar" value="Guardar cambios" />
+        <input type="reset" name="limpiar" value="Borrar los datos introducidos" />
+
+        </fieldset>
+
+    </form>
+
 </body>
+
 </html>
