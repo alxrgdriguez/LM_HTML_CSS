@@ -1,0 +1,81 @@
+#titulo1{
+
+    color:rgb(46, 171, 130)
+
+
+}
+
+#rojo_h1{
+
+    color: red;
+    font-weight: bolder;
+
+}
+
+#naranja_h1{
+
+    color: orange;
+
+}
+
+#titulo2{
+
+    color: blue;
+
+}
+
+#rojo_subr_h2{
+
+    color: red;
+    text-decoration: underline;
+}
+
+#azul_subr_h2{
+
+    color: blue;
+    text-decoration: underline;
+
+}
+
+#morado_subr_h2{
+
+    color:purple;
+}
+
+table,tr,td{
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+table{
+
+    width: 50%;
+}
+
+#especial{
+
+    color: rgb(255, 0, 255)
+}
+
+#verde_div{
+
+    color: green;  
+    text-decoration: underline; 
+}
+
+#titulo_tabla{
+
+    text-align: center;
+    color: blue;
+   
+  
+}
+
+#adicional{
+
+    color: rgb(148, 174, 148);
+
+}
