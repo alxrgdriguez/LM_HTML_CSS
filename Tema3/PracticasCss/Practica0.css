@@ -52,7 +52,7 @@ table,tr,td{
 
 table{
 
-    width: 50%;
+    width: 60%;
 }
 
 #especial{
@@ -77,5 +77,30 @@ table{
 #adicional{
 
     color: rgb(148, 174, 148);
+
+}
+
+.naranja_tabla{
+
+    color: orange;
+    font-weight: bolder;
+
+
+}
+
+.rojo_tabla{
+
+    color: red;
+    font-weight: bolder;
+}
+
+.verde_tabla{
+
+    color: green;
+}
+
+.cursiva{
+
+    color:rgb(107, 194, 107);
 
 }
