@@ -28,9 +28,18 @@
 
 .verde{
 
+    color: green;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     font-size: 24px;
 
+}
+
+.tabla_td{
+
+    color:blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
 
 }
