@@ -1,5 +1,58 @@
-#titulo1{
+#parrafo1{
 
-    
+    background-color: aqua;
 
+}
+
+#parrafo2{
+
+    color: blue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#parrafo3{
+
+    color: blue;
+    font-size: 22px;
+    background-color: aqua;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#parrafo4{
+
+    color: blue;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+
+}
+
+#parrafo5{
+
+    color: green;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#parrafo6{
+
+    color: green;
+    font-size: 30px;
+    font-family: Arial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+#parrafo7{
+
+    color: green;
+    font-size: 30px;
+    font-family: Arial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
