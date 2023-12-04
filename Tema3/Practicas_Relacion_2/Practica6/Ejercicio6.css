@@ -1,0 +1,30 @@
+#tabla_principal{
+
+    background-color: bisque;
+
+}
+
+
+table tr:hover{
+
+    background: #FFFF66;
+}
+
+.ths{
+
+    background-color: rgb(198, 249, 255);
+}
+
+table,tr,td,th{
+
+    border: 1px solid black;
+    border-collapse:collapse;
+    text-align: center;
+    font: .9em Arial, Helvetica, sans-serif;
+    
+}
+
+table th, table, td {
+    border: 1px solid #333;
+    line-height: 2em;
+  }
