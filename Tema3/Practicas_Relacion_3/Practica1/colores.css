@@ -1,3 +1,10 @@
+#contenedor_padre{
+
+   padding-top: 10%;
+   padding-left: 15%;
+
+}
+
 #caja_naranja{
 
     width: 150px;
@@ -72,4 +79,5 @@
 body{
 
     background: black;
+    overflow: hidden; /*Para que no haya scroll*/
 }
