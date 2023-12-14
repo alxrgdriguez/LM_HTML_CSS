@@ -1,16 +1,20 @@
 #tabla_principal{
 
-    background-color: bisque;
+    background-color: rgb(211, 209, 209)
 
 }
 
+table{
+
+    width: 30%;
+}
 
 .ths{
 
     background-color: rgb(198, 249, 255);
     font-weight: bolder;
     text-align: center;
-    font-display:initial;
+
 }
 
 table,tr,td,th{
@@ -25,7 +29,6 @@ table,tr,td,th{
 
 table, tr, th, table, td {
     border: 1px solid #333;
-    width: 30%;
     line-height: 2em;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 
