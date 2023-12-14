@@ -1,0 +1,19 @@
+div#paginacion {
+    border: 1px solid #CCC;
+    background-color: #E0E0E0;
+    padding: 10px;
+    
+   
+}
+
+.derecha {
+    float: right;
+}
+
+.izquierda {
+    float: left;
+}
+
+div.clear {
+    clear: both;
+}
