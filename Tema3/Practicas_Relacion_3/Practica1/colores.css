@@ -39,7 +39,7 @@
     background: pink;
     text-align: center;
     font-weight: bold;
-    position: relative;
+    position: relative; /*Permite mover el contenedor*/
     left: 700px;
     bottom: 600px;
     
