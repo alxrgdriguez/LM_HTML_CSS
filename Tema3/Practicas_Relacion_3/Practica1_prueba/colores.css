@@ -1,10 +1,19 @@
 body{
 
     background: black;
+    overflow: hidden; /*Scroll*/
 }
 
 h1{
     color: white;
+    text-align: center; /*Centrar el texto*/
+    text-decoration: underline; /*Para poner una linea debajo*/
+}
+
+#contenedor_padre{
+
+    padding-top: 10%; /*Mover todo el contenido de nuestras cajas para abajo*/
+
 }
 
 #caja_naranja{
@@ -12,9 +21,9 @@ h1{
     width:150px; /*Ancho*/
     height: 450px; /*Alto*/
     background: orange;
-    position: relative;
-    left: 30% ; /*Izquierda en ingles*/
-    bottom:77px ; /*Abajo*/
+    position: relative; /*Posicion relative para poder mover nuestra caja*/
+    left: 38.3% ; /*Izquierda en ingles*/
+    bottom:76.5px ; /*Abajo*/
 }
 
 #caja_gris{
@@ -22,6 +31,9 @@ h1{
     width: 150px;
     height: 300px;
     background: gray;
+    position: relative;
+    left: 46.1%;
+    bottom:526.7px ;
 }
 
 #caja_amarillo{
@@ -29,6 +41,9 @@ h1{
     width: 150px;
     height: 150px;
     background: yellow;
+    position: relative;
+    left: 54%;
+    bottom: 826px;
 
 }
 
@@ -37,6 +52,9 @@ h1{
     width: 150px;
     height: 150px;
     background: aqua;
+    position: relative;
+    left: 46.1%;
+    bottom: 976px;
 
 }
 
@@ -45,5 +63,9 @@ h1{
     width: 150px;
     height: 300px;
     background: pink;
+    position: relative;
+    left: 54%;
+    bottom: 826px;
 
 }
+
