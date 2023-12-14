@@ -1,0 +1,66 @@
+#caja_naranja{
+
+    width: 100%;
+    min-width: 300px;
+    max-width: 10000px;
+    height: 200px;
+    background: orange;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#caja_gris{
+
+    width: 100%;
+    min-width: 300px;
+    max-width: 10000px;
+    height: 200px;
+    background: gray;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+#caja_marron{
+
+    width: 100%;
+    min-width: 300px;
+    max-width: 10000px;
+    height: 200px;
+    background: maroon;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+#caja_rosa{
+
+    width: 100%;
+    min-width: 300px;
+    max-width: 10000px;
+    height: 200px;
+    background: pink;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+#caja_azul{
+
+    width: 100%;
+    min-width: 300px;
+    max-width: 10000px;
+    height: 200px;
+    background: blue;
+    text-align: center;
+    font-weight: bold;
+    float:left;
+	padding: 4px;
+	margin: 4px;
+
+    
+}
