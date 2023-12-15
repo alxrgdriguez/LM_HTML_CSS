@@ -3,7 +3,7 @@
     height: 100px;
     width: 100%;
     background-color: yellow;
-    position: sticky;
+    position: sticky; /*Se mantiene arriba el titulo siempre*/
     top: 0%;
     text-align: center;
     display: grid;
