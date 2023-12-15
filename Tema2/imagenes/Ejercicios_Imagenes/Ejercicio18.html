@@ -17,7 +17,7 @@ Incluiremos además una imagen en cada uno de los apartados de la página. -->
 <body>
 
     <h1 class="titulo">LOS PINGÜINOS</h1>
-    <img id="pinguino" src="/todas_las_imagenes/pinguino.jpeg" alt="Pingüino">
+    <img id="pinguino" src="../todas_las_imagenes/pinguino.jpeg" alt="Pingüino">
     <h1>Contenido</h1>
     <div id="contenido">
 
@@ -114,7 +114,8 @@ Incluiremos además una imagen en cada uno de los apartados de la página. -->
 
     #contenido{
 
-        display: grid;
+        display: flex; /*Navegacion en fila*/
+        display: grid; /*Navegación en columna*/
         gap: 10px;
     }
 
@@ -128,9 +129,10 @@ Incluiremos además una imagen en cada uno de los apartados de la página. -->
     #pinguino{
 
         width: 420px;
-        display: block;
-        float: right;
         margin-right: 250px;
+        position: relative;
+        float: right;
+        left: 100px;
     }
 
 </style>
