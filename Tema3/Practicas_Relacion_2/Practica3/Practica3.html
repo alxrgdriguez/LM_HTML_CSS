@@ -1,21 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Practica3.css">
-    <title>Alejandro Rodríguez Gallardo</title>
+<style>
+div {
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  padding: 30px;
+  position: relative;
+}
 
+#divPadre {
+  background-color: lightgray;
+}
+
+#div1 {
+  background-color: pink;
+  left: 200px;
+  top: 100px;
+}
+
+#div2 {
+  background-color: lightgreen;
+  left: -50px;
+  top: -50px;
+}
+
+#div3 {
+  background-color: lightblue;
+  left: 450px;
+  top: -300px;
+}
+</style>
 </head>
 <body>
 
-    <div id="padre">
+<div id="divPadre">
+  <div id="div1">Div 1</div>
+  <div id="div2">Div 2</div>
+  <div id="div3">Div 3</div>
+</div>
 
-        <di id="div1"></di>
-        <di id="div2"></di>
-        <di id="div3"></di>
-
-    </div>
-    
 </body>
 </html>
