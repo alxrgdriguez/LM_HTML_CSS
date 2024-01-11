@@ -14,7 +14,7 @@ header{
 
 body{
 
-    background-color: #F3F2ED;
+
 
 }
 
@@ -38,6 +38,31 @@ body{
     height: 100px;
 
 }
+
+#blog1{
+
+    width: 200px;
+}
+
+#blog2{
+
+    width: 200px;
+    height: 150px;
+}
+
+#extra{
+
+    background-color: #f5f5dc;
+
+}
+
+#final{
+
+    background-color: #ab2a3e;
+    color: white;
+
+}
+
 
 #primero{
 
