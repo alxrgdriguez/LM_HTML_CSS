@@ -14,6 +14,7 @@ header{
 
 body{
 
+    background-color: rgb(255, 245, 232);
 
 
 }
@@ -39,20 +40,36 @@ body{
 
 }
 
+#imagenes{
+
+    display: flex;
+
+}
+
 #blog1{
 
     width: 200px;
+    
 }
 
 #blog2{
 
     width: 200px;
     height: 150px;
+    padding-top: 4px;
+}
+
+#extra_padre{
+
+    display: flex;
 }
 
 #extra{
 
     background-color: #f5f5dc;
+    padding-left: 30px;
+    padding-right: 20px;
+    box-sizing: border-box;
 
 }
 
