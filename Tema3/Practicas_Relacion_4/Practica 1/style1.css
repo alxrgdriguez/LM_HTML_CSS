@@ -1,0 +1,55 @@
+html{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/fondo.jpg);
+}
+
+body{
+
+    background-color: #F3F2ED;
+
+}
+
+#menu{
+
+
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+#logo{
+
+    align-content: center;
+}
+
+a:link{
+
+    color:#f5f5dc;
+}
+
+a:hover{
+
+    color: red;
+
+}
+
+footer{
+
+    background-color: red;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+   
+}
