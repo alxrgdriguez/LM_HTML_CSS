@@ -15,7 +15,7 @@ body {
   gap: 15px;
 }
 
-article {
+#texto {
   width: 850px;
   text-align: justify;
 }
