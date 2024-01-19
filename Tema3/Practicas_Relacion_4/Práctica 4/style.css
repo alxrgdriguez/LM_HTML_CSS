@@ -23,16 +23,13 @@
 #izquierda{
 
     background-color: white;
-    width: 20%;
+    width: 10%;
     float: right;
     text-align: justify;
     margin-right: 10px;
+    background-color: rgb(236, 104, 236);
 }
 
-body{
-
-    background-color: rgb(43, 32, 32);
-}
 
 #cabecera{
 
