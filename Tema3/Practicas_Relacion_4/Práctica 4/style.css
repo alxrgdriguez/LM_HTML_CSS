@@ -1,0 +1,62 @@
+#contenedor {
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+
+#derecha{
+
+    background-color: white;
+    width: 70%;
+    float: right;
+    text-align: justify;
+}
+
+#derecha a{
+
+    color:orange;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#izquierda{
+
+    background-color: white;
+    width: 20%;
+    float: right;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+body{
+
+    background-color: rgb(43, 32, 32);
+}
+
+#cabecera{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#cabecera a{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+#cabecera h2{
+
+    color: white;
+}
+
+#cabecera{
+
+    background: linear-gradient(orange, rgb(238, 189, 132));
+
+
+}
+
+
