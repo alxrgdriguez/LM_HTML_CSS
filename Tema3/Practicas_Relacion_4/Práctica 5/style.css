@@ -1,0 +1,104 @@
+body{
+    width: 946px;
+    background-color: orange;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#contenido{
+
+    background-color: white;
+
+}
+
+header{
+
+    padding-top: 10px;
+}
+
+header h1 a:visited{
+
+    color:orange;
+    
+}
+
+header h1 a:hover{
+
+    color:blue;
+    
+}
+
+header h1 a{
+
+    text-decoration: none;
+    
+}
+
+header h2{
+
+ 
+}
+
+nav{
+
+    background-color: black;
+    height: 50px;
+    width: 946px;
+    
+}
+
+nav ul li{
+
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:visited{
+
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:link{
+
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+
+    color: rgb(241, 130, 130);
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+nav ul {
+    margin-left: 50px;
+   
+}
+
+footer {
+    margin-top: 5%;
+    clear: both;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
