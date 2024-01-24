@@ -1,19 +1,19 @@
 html{
-    width: 100%;
-    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white
 
 }
 
-#contenedor {
-    width: 50%;
-    background: white;
+body{
+    width: 960px;
     margin: 0 auto;
+
 }
+
 
 
 #derecha{
 
-    background-color: white;
     width: 70%;
     float: right;
     text-align: justify;
@@ -29,7 +29,6 @@ html{
 
 #izquierda {
     width: 80%;
-    background-color: white;
     float: left;
     text-align: justify;
 
@@ -71,28 +70,15 @@ html{
 
 }
 
-#cabecera h2 {
-    margin-top: -25px;
-   
-}
 
 #izquierda{
 
-    background-color: white;
     width: 20%;
     float: right;
     text-align: justify;
     margin-right: 70px;
     margin-top: 25px;
     background: linear-gradient(rgb(243, 235, 219), rgb(238, 189, 132));
-}
-
-
-#cabecera{
-
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: orange;
-    
 }
 
 
@@ -110,7 +96,10 @@ html{
 
 #cabecera{
 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: linear-gradient(orange, rgb(238, 189, 132));
+    width: 100%;
+  
     
 
 }
