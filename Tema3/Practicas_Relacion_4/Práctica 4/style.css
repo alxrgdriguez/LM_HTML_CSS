@@ -1,13 +1,12 @@
-body{
+html{
     width: 100%;
-    
     
 
 }
 
 #contenedor {
     width: 50%;
-    background-color: white;
+    background: white;
     margin: 0 auto;
 }
 
@@ -30,6 +29,7 @@ body{
 
 #izquierda {
     width: 80%;
+    background-color: white;
     float: left;
     text-align: justify;
 
@@ -44,10 +44,37 @@ body{
 
     text-decoration: none;
     list-style:none;
-    border-bottom: 1px solid #ffaa3b;
+    
 }
 
+#izquierda ul li a:visited{
 
+    color: orange;
+}
+
+#izquierda ul li a:hover{
+
+    color: black;
+}
+
+#izquierda ul li a:link{
+
+    color: orange;
+}
+
+#izquierda ul li a{
+
+    margin-left: -40px;
+    text-decoration: none;
+    list-style:none;
+
+
+}
+
+#cabecera h2 {
+    margin-top: -25px;
+   
+}
 
 #izquierda{
 
@@ -56,6 +83,7 @@ body{
     float: right;
     text-align: justify;
     margin-right: 70px;
+    margin-top: 25px;
     background: linear-gradient(rgb(243, 235, 219), rgb(238, 189, 132));
 }
 
@@ -63,6 +91,7 @@ body{
 #cabecera{
 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: orange;
     
 }
 
