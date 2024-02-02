@@ -6,14 +6,13 @@ body{
     
 }
 
-#cuerpo_formulario{
+main{
 
     width: 50%;
     background-color: white;
     margin-left: 25%;
     margin-top: 60px;
     
-
 }
 
 header{

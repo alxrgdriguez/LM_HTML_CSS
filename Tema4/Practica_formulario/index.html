@@ -1,89 +1,147 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Alejandro Rodriguez Gallardo</title>
 </head>
+
 <body>
 
     <header>
         <h1>Recogida de datos</h1>
     </header>
 
-    <div id="cuerpo_formulario">
+    <main>
 
-    <form>
+        <form>
 
-        <fieldset>
-            <legend>A. Datos Personales</legend>
-            <label for="nombre">
-                1.Nombre
-                <input type="text" name="nombre" id="nombre" required autofocus>
-            </label>
+            <fieldset>
+                <legend>A. Datos Personales</legend>
+                <label for="nombre">
+                    1.Nombre
+                    <input type="text" name="nombre" id="nombre" required autofocus>
+                </label>
 
-            <label for="apellido1">
-                2.Apellido1
-                <input type="text" name="apellido1" id="apellido1" required>
-            </label>
+                <label for="apellido1">
+                    2.Apellido1
+                    <input type="text" name="apellido1" id="apellido1" required>
+                </label>
 
-            <label for="apellido2">
-                3.Apellido2
-                <input type="text" name="apellido2" id="apellido2" required>
-            </label>
+                <label for="apellido2">
+                    3.Apellido2
+                    <input type="text" name="apellido2" id="apellido2" required>
+                </label>
 
-            <label for="telefono">
-                4.Teléfono
-                <input type="tel" name="telefono" id="telefono">
-            </label>
+                <label for="telefono">
+                    4.Teléfono
+                    <input type="tel" name="telefono" id="telefono">
+                </label>
 
-            <label for="email">
-                5.Email
-                <input type="email" name="email" id="email">
-            </label>
+                <label for="email">
+                    5.Email
+                    <input type="email" name="email" id="email">
+                </label>
 
-            <label for="url">
-                6.URL
-                <input type="url" name="url" id="url" placeholder="Introduce la url de la página">
-            </label>
+                <label for="url">
+                    6.URL
+                    <input type="url" name="url" id="url" placeholder="Introduce la url de la página">
+                </label>
 
-            <label for="localidad">
-                7.Localidad
-               <select name="localidad" id="localidad">
+                <label for="localidad">
+                    7.Localidad
+                    <select name="localidad" id="localidad">
 
-                <option>Cuevas</option>
-                <option>Vera</option>
-                <option>Garrucha</option>
+                        <option>Cuevas</option>
+                        <option>Vera</option>
+                        <option>Garrucha</option>
 
-               </select>
-            </label>
+                    </select>
+                </label>
 
-        </fieldset>
+            </fieldset>
 
-        <fieldset>
+            <fieldset>
 
-            <legend>B. Datos del pedido</legend>
-            <label for="fecha">
-                8. Fecha y hora
-                <input type="datetime-local" name="fecha" id="fecha">
+                <legend>B. Datos del pedido</legend>
+                <label for="fecha">
+                    8. Fecha y hora
+                    <input type="datetime-local" name="fecha" id="fecha">
+                </label>
+
+                <label for="numero">
+                    9. Número
+                    <input type="number" name="numero" id="numero" min="-1" max="10">
+                </label>
+
+                <label for="color">
+                    10. Color de pedido
+                    <input type="color" name="color" id="color">
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>C. Datos de entrega</legend>
+                <label for="fecha">
+                    11. Fecha de entrega
+                    <input type="date" name="fecha" id="fecha">
+                </label>
+
+                <label for="hora">
+                    12. Hora
+                    <input type="time" name="hora" id="hora">
+                </label>
+
+                <label for="factura">
+                    13. Documentacion presentada:
+                    <input type="checkbox" name="factura" id="factura"> Factura
+                </label>
+
+                <label for="certificado">
+                    <input type="checkbox" name="certificado" id="certificado"> Certificado
+                </label>
+
+                <label for="tienda">
+                    14. Recogida:
+                    <input type="radio" name="tienda" id="tienda">Tienda
+                </label>
+
+                <label for="casa">
+                    <input type="radio" name="tienda" id="casa">Casa
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>D. Mas información</legend>
+
+                <label for="busca">
+                    15. Busca aquí
+                    <input type="search" name="busca" id="busca" placeholder="Introduce el termino de busqueda"> <button
+                        type="submit">Buscar</button>
+                </label>
+
+                <label for="comentarios">
+                    16. Otros comentarios
+                    <textarea placeholder="Introduce tus comentarios"></textarea>
+                    <button type="submit" id="boton_naranja">Enviar</button>
+                </label>
 
 
 
-            </label>
+            </fieldset>
 
 
 
+        </form>
 
-        </fieldset>
+    </main>
 
-
-
-
-
-    </form>
-
-</div>
-    
 </body>
+
 </html>
