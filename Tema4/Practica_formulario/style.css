@@ -1,0 +1,30 @@
+body{
+
+    background-image: url(./back.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    
+}
+
+#cuerpo_formulario{
+
+    width: 50%;
+    background-color: white;
+    margin-left: 25%;
+    margin-top: 60px;
+    
+
+}
+
+header{
+
+    margin-left: 25%;
+    background-color: orangered;
+    width: 50%;
+    margin-top: -10px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
