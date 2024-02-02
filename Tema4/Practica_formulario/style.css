@@ -10,7 +10,7 @@ body{
 main{
 
     width: 50%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.875);
     margin-left: 25%;
     margin-top: 30px;
     
@@ -40,12 +40,13 @@ label{
     font-size: 19px;
 }
 
+
 fieldset legend{
 
     font-size: 24px;
     font-weight: bolder;
-    background-color: rgb(245, 195, 167);
-    text-decoration: line-through 3px rgb(255, 68, 0);
+    background-color: rgb(244, 174, 133);
+    /*text-decoration: line-through 3px rgb(255, 68, 0);*/
 }
 
 .columna{
@@ -59,12 +60,32 @@ fieldset legend{
 #section1{
 
     display: flex;
-    gap: 190px;
+    gap: 140px;
 }
+
 
 #entrega{
 
     display: grid;
+    gap: 40px;
+}
+
+#informacion{
+
+    display: grid;
+    gap: 100px;
+    
+}
+
+#boton_n{
+
+    margin-top: 70px;
+    margin-left: 35%;
+    width: 100%;
 
 }
+
+
+
+
 
