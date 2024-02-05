@@ -49,6 +49,8 @@ fieldset legend{
     /*text-decoration: line-through 3px rgb(255, 68, 0);*/
 }
 
+
+
 .columna{
 
     display: grid;
@@ -56,6 +58,13 @@ fieldset legend{
     gap: 30px;
 
 }
+
+#parte_a input{
+
+    width: 45%;
+    height: 72%;
+}
+
 
 #section1{
 
@@ -79,13 +88,34 @@ fieldset legend{
 
 #boton_n{
 
-    margin-top: 70px;
-    margin-left: 35%;
+    margin-top: 36px;
+    margin-left: 34%;
     width: 100%;
 
 }
 
+#section2{
 
+    display: flex;
+}
+
+#section3{
+
+    display: flex;
+}
+
+
+#texto_area{
+    display: grid;
+}
+
+
+#section4{
+
+    margin-top: -50px;
+
+
+}
 
 
 

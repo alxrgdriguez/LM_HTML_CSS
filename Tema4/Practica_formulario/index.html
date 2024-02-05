@@ -18,7 +18,7 @@
 
         <form>
 
-            <fieldset class="columna">
+            <fieldset id="parte_a" class="columna">
                 <legend>A. Datos Personales</legend>
                 <label for="nombre">
                     1.Nombre
@@ -66,15 +66,15 @@
             <fieldset class="columna">
 
                 <legend>B. Datos del pedido</legend>
-                    <label for="fecha">
-                        8. Fecha y hora
-                        <input type="datetime-local" name="fecha" id="fecha">
-                    </label>
+                <label for="fecha">
+                    8. Fecha y hora
+                    <input type="datetime-local" name="fecha" id="fecha">
+                </label>
 
-                    <label for="numero">
-                        9. Número
-                        <input type="number" name="numero" id="numero" min="-1" max="10">
-                    </label>
+                <label for="numero">
+                    9. Número
+                    <input type="number" name="numero" id="numero" min="-1" max="10">
+                </label>
 
                 <label for="color">
                     10. Color de pedido
@@ -86,26 +86,29 @@
             <fieldset id="entrega">
 
                 <legend>C. Datos de entrega</legend>
-            <div id="section1">
-                <label for="fecha">
-                    11. Fecha de entrega
-                    <input type="date" name="fecha" id="fecha">
-                </label>
+                <section id="section1">
+                    <label for="fecha">
+                        11. Fecha de entrega
+                        <input type="date" name="fecha" id="fecha">
+                    </label>
 
-                <label for="hora">
-                    12. Hora
-                    <input type="time" name="hora" id="hora">
-                </label>
-            </div>
-                <label for="factura">
-                    13. Documentacion presentada:
-                    <input type="checkbox" name="factura" id="factura"> Factura
-                </label>
+                    <label for="hora">
+                        12. Hora
+                        <input type="time" name="hora" id="hora">
+                    </label>
+                </section>
 
-                <label for="certificado">
-                    <input type="checkbox" name="certificado" id="certificado"> Certificado
-                </label>
+                <section id="section2">
+                    <label for="factura">
+                        13. Documentacion presentada:
+                        <input type="checkbox" name="factura" id="factura"> Factura
+                    </label>
 
+                    <label for="certificado">
+                        <input type="checkbox" name="certificado" id="certificado"> Certificado
+                    </label>
+                </section>
+                <section id="section3">
                 <label for="tienda">
                     14. Recogida:
                     <input type="radio" name="tienda" id="tienda">Tienda
@@ -114,6 +117,8 @@
                 <label for="casa">
                     <input type="radio" name="tienda" id="casa">Casa
                 </label>
+
+                </section>
 
             </fieldset>
 
@@ -124,20 +129,23 @@
                 <label for="busca">
                     15. Busca aquí
                     <input type="search" name="busca" id="busca" placeholder="Introduce el termino de busqueda"> <button
-                    style="font-size: 20px; font-family:Georgia, 'Times New Roman', Times, serif;" type="submit">Buscar</button>
+                        style="font-size: 20px; font-family:Georgia, 'Times New Roman', Times, serif;"
+                        type="submit">Buscar</button>
                 </label>
 
-                <label for="comentarios">
-                    16. Otros comentarios
-                    <textarea cols="40px" placeholder="Introduce tus comentarios"></textarea>
-                <div id="boton_n">
-                    <button style=" font-family:Arial, Helvetica, sans-serif;border-radius: 4px;width:30% ;
+                <section id="section4">
+                    <label for="comentarios">
+                        16. Otros comentarios
+                        <div id="texto_area">
+                            <textarea cols="40px" rows="5px" placeholder="Introduce tus comentarios"></textarea>
+                        </div>
+                        <div id="boton_n">
+                            <button style=" font-family:Arial, Helvetica, sans-serif;border-radius: 4px;width:30% ;
                     background-color: orangered; border-color: orangered; font-size: 30px; color: white;
-                    font-weight: bolder;" 
-                    type="submit" id="boton_naranja">Enviar</button>
-                </div>
-                </label>
-
+                    font-weight: bolder;" type="submit" id="boton_naranja">Enviar</button>
+                        </div>
+                    </label>
+                </section>
             </fieldset>
 
 
