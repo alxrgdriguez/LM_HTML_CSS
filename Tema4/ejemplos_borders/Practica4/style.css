@@ -1,0 +1,26 @@
+body{
+
+    margin: 0 auto;
+    background-color: azure;
+    width: 100%;
+}
+
+main{
+
+    margin: 0 auto;
+    width: 10%;
+    background-color: black;
+
+}
+
+div{
+
+    width: 28%;
+    height: 20%;
+    background-color: yellow;
+}
+
+#contenedor1{
+
+    background-color: blue;
+}
