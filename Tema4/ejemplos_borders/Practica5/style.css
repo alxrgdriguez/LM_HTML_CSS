@@ -18,12 +18,32 @@ main{
 
 }
 
+header{
+
+    background-color: grey;
+    width: 300px;
+    margin-left: 750px;
+    box-shadow: -70px 70px 70px black;
+}
+
 h1{
+
+    text-align: center;
+    width: 300px;
+    margin-top: 60px;
+
+
+}
+
+
+
+p{
 
     color: white;
     text-align: center;
     margin-top: 160px;
     font-size: 40px;
+    font-weight: bold;
 }
 
 div{
