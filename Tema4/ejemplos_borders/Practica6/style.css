@@ -12,6 +12,7 @@ main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    padding: 40px;
 
 }
 
@@ -23,7 +24,7 @@ div{
     background: yellow;
     margin: 0 auto;
     float: left;
-
+    margin-top: 20px;
     
 }
 p{
