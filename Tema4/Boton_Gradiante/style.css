@@ -5,9 +5,9 @@ body{
 
 button{
 
-    width: 400px;
-    height: 300px;
-    margin-left: 700px;
+    width: 25%;
+    min-height: 300px;
+    margin-left: 37%;
     margin-top: 250px;
     border: 4px solid black;
     border-radius: 5%;
