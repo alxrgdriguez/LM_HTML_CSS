@@ -1,0 +1,37 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: rgb(217, 210, 210);
+    display: flex;
+    width: 100dvw;
+    height: 100dvh;
+    text-align: center;
+    gap: 2px;
+    
+}
+
+
+
+aside{
+
+
+
+    width: 25dvw;
+    background-color: aquamarine;
+    
+
+}
+
+section{
+
+
+    
+    width: 75dvw;
+    background-color:aqua;
+}
