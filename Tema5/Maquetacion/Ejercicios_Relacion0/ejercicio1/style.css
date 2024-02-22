@@ -14,9 +14,9 @@ body{
 
 ul{
 
+    justify-content: flex-start;
     display: flex;
     list-style: none;
-    justify-content: center;
     align-items: center;
     width: 100vw;
     margin-top: 20px;
