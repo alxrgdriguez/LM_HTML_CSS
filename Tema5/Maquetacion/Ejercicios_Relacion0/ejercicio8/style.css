@@ -8,13 +8,23 @@
 body{
 
     display: flex;
-    flex-direction: column;
     width: 95dvw;
     height: 40dvh;
     margin: 0 auto;
     margin-top: 30px;
     border: 0.5px solid black;
+    gap: 8px;
+
    
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+   
+    
 }
 
 header{
@@ -23,12 +33,29 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    font-weight:lighter;
 }
 
 
 section{
 
     flex: 3;
+    font-size: 30px;
+    text-align: center;
+}
+
+#section1{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.abajo{
+    
+    margin-top: 25px;
+    
 }
 
 footer{
@@ -38,6 +65,7 @@ footer{
     align-items: center;
     justify-content: center;
     background-color: rgb(178, 176, 176);
-
+    color: white;
+    font-size: 20px;
 }
 
