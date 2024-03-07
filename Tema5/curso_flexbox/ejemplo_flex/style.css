@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+.contendor {
+  background-color: aqua;
+  display: flex;
+  /*Direccion de elementos flexibles (flex-direction)
+    /* --> flex-direction: row; Elementos en horizontal (principio al final)
+       --> flex-direction: row-reverse; Elementos en horizontal (final al principio)
+       --> flex-direction: column; Elementos en columna (arriba a bajo)
+       --> flex-direction: column reverse; Elementos en columna (bajo a arriba) 
+    */
+
+  /*Ajuste de los elementos flexibles (flex-wrap) * POR SI NO CABEN LOS ELEMENTOS EN EL CONTENEDOR SE ADAPTARÁN *
+       --> flex-wrap: nowrap; (default) Una sola linea
+       --> flex-wrap: wrap; Los elementos flexibles se disponen en multiples lineas si no caben. Se colocarían de arriba a bajo
+       --> flex-wrap: wrap-reverse; Lo mismo que el anterior pero de abajo a arriba.
+    */
+    flex-wrap: wrap;
+       /* Para poner lo de arriba en sola una linea se podra utilizar una propiedad que se llama flex-flox
+       --> Sintaxis --- flex-flow: flex-direction flex-wrap
+       --> Ejemplo  --- flex-flow: row wrap */
+
+  flex-flow: row wrap;
+
+  /*Alineacion en horizontal (justify-content)
+    
+       --> justify-content: flex-start; Contenido alineado al principio
+       --> justify-content: flex-end; Contenido alineado al final
+       --> justify-content: center; Contenido alineado al centro
+       --> justify-content: space-between; Los elementos serán empujados a cada extremo y el espacios se repartirá en medio de los elementos
+       --> justify-content: space-around; los elementos repartirán el espacio sobrante de su contenedor de manera equitativa a sus alrededores, creando un espacio también a los bordes
+       --> justify-content: space-evenly; Los elementos se repartirán el espacio sobrante de su contenedor de igual manera a todos sus costados
+    
+    */
+  justify-content: space-around;
+  height: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 60%;
+}
+
+.contendor div {
+  background-color: red;
+  border: 1px solid black;
+  height: 50px;
+}
