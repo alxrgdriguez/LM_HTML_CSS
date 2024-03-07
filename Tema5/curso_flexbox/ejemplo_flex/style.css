@@ -7,7 +7,17 @@
 
 .contendor {
   background-color: aqua;
+
+  /*Elemento contenedor (display-flex)
+  Con flex podremos controlar propiedades de los elementos que contiene
+  
+        --> Podremos:
+            > Alinear
+            > Dar tamaño
+            > Distribuir el espacio restante
+  */
   display: flex;
+
   /*Direccion de elementos flexibles (flex-direction)
     /* --> flex-direction: row; Elementos en horizontal (principio al final)
        --> flex-direction: row-reverse; Elementos en horizontal (final al principio)
