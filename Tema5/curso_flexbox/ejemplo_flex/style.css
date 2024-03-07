@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+    /*Dice que el tamaño de caja se va a mantener estable, no importa si se 
+    le añade un padding, el tamaño de caja se quedará con el tamaño indicado
+    y el padding crecerá hacia adentro*/
 }
 
 .contendor {
@@ -17,8 +20,10 @@
        --> flex-wrap: wrap; Los elementos flexibles se disponen en multiples lineas si no caben. Se colocarían de arriba a bajo
        --> flex-wrap: wrap-reverse; Lo mismo que el anterior pero de abajo a arriba.
     */
-    flex-wrap: wrap;
-       /* Para poner lo de arriba en sola una linea se podra utilizar una propiedad que se llama flex-flox
+
+  flex-wrap: wrap;
+
+  /* Para poner lo de arriba en sola una linea se podra utilizar una propiedad que se llama flex-flox
        --> Sintaxis --- flex-flow: flex-direction flex-wrap
        --> Ejemplo  --- flex-flow: row wrap */
 
@@ -35,6 +40,32 @@
     
     */
   justify-content: space-around;
+
+  /*Alineación en vertical (aling-items)
+  
+       --> aling-items: flex-start;
+       --> aling-items: flex-end;
+       --> aling-items: center; 
+       --> aling-items: stretch; (no pueden tener altura los hijos si no, no funciona)
+       --> aling-items: space-between;
+       --> aling-items: space-around;      
+  
+  */
+  align-items: center;
+
+  /*Alineación en vertical con varias lineas (aling-content)
+  
+       --> aling-content: flex-start
+       --> aling-content: flex-end
+       --> aling-content: center
+       --> aling-content: stretch
+       --> aling-content: space-between
+       --> aling-content: space-around
+  
+  */
+  align-content: flex-end;
+
+  /*.... Codigo ....*/
   height: 200px;
   margin: 20px auto;
   padding: 10px;
@@ -45,4 +76,5 @@
   background-color: red;
   border: 1px solid black;
   height: 50px;
+  
 }
