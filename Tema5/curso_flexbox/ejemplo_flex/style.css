@@ -5,7 +5,7 @@
     y el padding crecerá hacia adentro*/
 }
 
-.contendor {
+.contenedor {
   background-color: aqua;
 
   /*Elemento contenedor (display-flex)
@@ -82,7 +82,7 @@
   width: 60%;
 }
 
-.contendor div {
+.contenedor div {
   background-color: red;
   border: 1px solid black;
   height: 50px;
