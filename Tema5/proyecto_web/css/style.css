@@ -41,21 +41,18 @@ nav a {
 
 nav li:hover {
   background-color: black;
-  transition-duration: 1s;
-  transform: scale(1);
 }
 
-img {
+.fotos_coches {
   width: 300px;
   height: 300px;
   border-radius: 50%;
   object-fit: cover;
   margin-left: 50px;
-  transition: 0.5s;
   cursor: pointer;
 }
 
-img:hover {
+.fotos_coches:hover {
   transform: scale(1.1);
   transition: 0.5s;
 }
@@ -109,10 +106,10 @@ section {
   margin-bottom: 20px;
 }
 
-.footer {
+footer {
   background-color: #000000;
   color: #ffffff;
-  padding: 40px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -121,44 +118,20 @@ section {
   margin: 0 auto;
 }
 
-.redes-sociales {
+.logos-coches {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  gap: 50px;
+  cursor: pointer;
+  
 }
 
-.redes-sociales a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 500;
-  margin: 0 10px;
-  transition: 0.3s;
-  position: relative;
-  padding: 5px;
-  border-radius: 50%;
-}
-
-.redes-sociales a:hover {
-  color: #808080;
-  background-color: #333333;
-}
-
-.redes-sociales a::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-color: #ffffff;
-  opacity: 0;
-  transition: 0.3s;
-}
-
-.redes-sociales a:hover::before {
-  opacity: 0.2;
+.logos-coches img {
+  width: 80px;
+  height: auto;
+  margin: 0 40px;
+  
 }
 
 hr {
@@ -168,13 +141,8 @@ hr {
 }
 
 .texto-footer {
-  font-size: 14px;
-  margin-top: 20px;
+  font-size: 16px;
+  margin-top: 10px;
 }
 
-@media screen and (max-width: 768px) {
-  .redes-sociales a {
-    font-size: 14px;
-    margin: 0 5px;
-  }
-}
+
