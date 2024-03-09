@@ -1,7 +1,7 @@
 @font-face {
-    font-family: ethnocentric;
-    src: url(../fonts/ethnocentric/ethnocentric\ rg.otf);
-  }
+  font-family: ethnocentric;
+  src: url(../fonts/ethnocentric/ethnocentric\ rg.otf);
+}
 
 * {
   padding: 0;
@@ -48,16 +48,15 @@ nav a {
 nav li:hover {
   background-color: black;
 }
-main{
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-main form{
-    margin-top: 50px;
+main form {
+  margin-top: 50px;
 }
 
 .fotos_coches {
@@ -105,17 +104,16 @@ section {
   padding: 40px;
 }
 
-.secciones:nth-child(even) .fotos_coches{
-    margin-right: 60px;
-    margin-left: -10px;;
+.secciones:nth-child(even) .fotos_coches {
+  margin-right: 60px;
+  margin-left: -10px;
 }
 
 .secciones:nth-child(odd) {
-    display: flex;
-    align-items: center;
-    padding: 40px;
-  }
-
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
 
 .secciones p {
   text-align: justify;
@@ -155,9 +153,9 @@ section {
 }
 
 .menu-secundario a:hover {
-    background-color: #000000;
-    transform: scale(1.1);
-    transition: 0.5s;
+  background-color: #000000;
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 footer {
@@ -197,91 +195,78 @@ hr {
   margin-top: 10px;
 }
 
-footer{
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-footer a{
-    text-decoration: none;
-    color: #757575;
+footer a {
+  text-decoration: none;
+  color: #757575;
 }
 
 /** Contacto **/
 .formulario {
-    
-    margin: 0 auto;
-    padding: 2rem;
-    border-radius: 1rem;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    background-color: #75757561;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  background-color: #75757561;
 }
 
 .formulario fieldset {
-    border: none;
-    
+  border: none;
 }
 .formulario legend {
-    text-align: center;
-    font-size: 1.8rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 2rem;
-    
+  text-align: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2rem;
 }
 
-.formulario .alinear-derecha{
-    display: flex;
-    justify-content: center;
+.formulario .alinear-derecha {
+  display: flex;
+  justify-content: center;
 }
 
-.formulario .input-text{
-    border: 1px solid rgb(6, 5, 5);
+.formulario .input-text {
+  border: 1px solid rgb(6, 5, 5);
 }
 
-.formulario .boton{
-    height: 45px;
-    width: 140px;
-    border-radius: 7px;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    cursor: pointer;
-    transition: transform 0.5s ease-out;
-    
-  }
+.formulario .boton {
+  height: 45px;
+  width: 140px;
+  border-radius: 7px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  transition: transform 0.5s ease-out;
+}
 
-.boton:hover{
-
-    background-color: #000000;
-    color: white;
-    transform: scale(1.1);
-    transition: 0.4s;
+.boton:hover {
+  background-color: #000000;
+  color: white;
+  transform: scale(1.1);
+  transition: 0.4s;
 }
 
 .campo {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 .campo label {
-    font-weight: bold;
-    margin-bottom: .5rem;
-    display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
 }
 .campo textarea {
-    height: 20rem;
+  height: 20rem;
 }
 
 .input-text {
-    width: 100%;
-    border: none;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    border-radius: 0.5rem;
+  width: 100%;
+  border: none;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.5rem;
 }
-
-.contenedor_video{
-
-  display: flex;
-  margin-bottom: %;
-  
-}
-
