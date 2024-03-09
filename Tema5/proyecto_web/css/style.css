@@ -209,16 +209,17 @@ footer a{
 /** Contacto **/
 .formulario {
     
-    /*width: min( 60rem, 100% );*/ /** Utilizar el valor más pequeño **/
     margin: 0 auto;
     padding: 2rem;
     border-radius: 1rem;
     margin-bottom: 50px;
     margin-top: 50px;
+    background-color: #75757561;
 }
 
 .formulario fieldset {
     border: none;
+    
 }
 .formulario legend {
     text-align: center;
@@ -231,18 +232,30 @@ footer a{
 
 .formulario .alinear-derecha{
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
 .formulario .input-text{
-    border: 1px solid grey;
+    border: 1px solid rgb(6, 5, 5);
 }
 
 .formulario .boton{
-    height: 50px;
-    width: 100px;
-    border-radius: 0.5rem;
+    height: 45px;
+    width: 140px;
+    border-radius: 7px;
     font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: transform 0.5s ease-out;
+    
+  }
+
+.boton:hover{
+
+    background-color: #000000;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.4s;
 }
 
 .campo {
@@ -264,3 +277,11 @@ footer a{
     padding-bottom: 0.75rem;
     border-radius: 0.5rem;
 }
+
+.contenedor_video{
+
+  display: flex;
+  margin-bottom: 16%;
+  
+}
+
