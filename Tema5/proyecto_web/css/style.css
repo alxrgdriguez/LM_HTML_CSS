@@ -271,19 +271,45 @@ footer a {
 
 /*--- Pagina Inicio ---*/
 
-.cuerpo-inicio{
 
+
+#inicio{
   display: flex;
+  flex-direction: column;
+  
 }
 
-div .cuerpo-inicio{
-
-    
+.noticia{
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  padding: 10px;
+  margin-top: 50px;
 }
 
-.contenido_somos h2{
+.texto{
+width: 600px;
+text-align: justify;
+}
 
+.lista{
+  padding-left: 50px;
+  width: 550px;
+}
 
+.noticia h2{
+ 
+  text-align: center;
 
 }
+
+.noticia article{
+  margin-top: 60px;
+  
+}
+
+.noticia img{
+  margin-left: 50px;
+}
+
 
