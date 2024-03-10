@@ -370,15 +370,19 @@ th {
 td {
   text-align: center;
   text-align: justify;
+  
 }
 
 .imagen-tablas img {
   width: 300px;
   border-radius: 30px;
+  
+  
 }
 
 .imagen-tablas {
   width: 200px;
+  
 }
 
 #vendedores {
