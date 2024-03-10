@@ -271,15 +271,12 @@ footer a {
 
 /*--- Pagina Inicio ---*/
 
-
-
-#inicio{
+#inicio {
   display: flex;
   flex-direction: column;
-  
 }
 
-.noticia{
+.noticia {
   display: flex;
   justify-content: space-evenly;
   width: 90%;
@@ -287,47 +284,104 @@ footer a {
   margin-top: 50px;
 }
 
-.texto{
-width: 600px;
-text-align: justify;
+.texto {
+  width: 600px;
+  text-align: justify;
 }
 
-.lista{
+.lista {
   padding-left: 50px;
   width: 550px;
 }
 
-.noticia h2{
- 
+.noticia h2 {
   text-align: center;
-
 }
 
-.noticia article{
+.noticia article {
   margin-top: 60px;
-  
 }
 
-
-#linea-separadora{
-
+#linea-separadora {
   height: 7px;
   width: 50%;
   background-color: rgb(0, 0, 0);
   margin-left: 500px;
-
 }
 
-table{
-
-  flex-direction: column;
-}
-
-#video-inicio{
-
+#video-inicio {
   margin-right: 50px;
   margin-top: 40px;
   border-radius: 80px 20px 5px 60px;
 }
 
+.tabla-coches {
+  margin: 20px auto;
+  width: 80%;
+  border-collapse: collapse;
+  margin-right: 50px;
+}
 
+#h2-tabla {
+  text-align: center;
+}
+
+table {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.tabla-coches {
+  margin: 20px auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+#h2-tabla {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td {
+  text-align: center;
+  text-align: justify;
+}
+
+.imagen-tablas img {
+  width: 300px;
+  border-radius: 30px;
+}
+
+.imagen-tablas {
+  width: 200px;
+}
+
+#vendedores {
+  width: 40%;
+  margin-left: 30px;
+}
