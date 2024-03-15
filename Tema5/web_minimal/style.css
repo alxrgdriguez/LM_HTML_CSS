@@ -63,6 +63,7 @@ nav ul li a{
   margin-bottom: 20px;
   border-bottom: 1px solid black;
   padding-bottom: 25px;
+  margin-top: 5px;
 }
 
 .parte-arriba h1{
@@ -169,6 +170,12 @@ footer{
   display: flex;
   justify-content: space-around;
   height: 6dvh;
+  align-items: center;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
 }
 
 
