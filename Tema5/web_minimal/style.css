@@ -26,10 +26,10 @@ header {
 }
 
 nav ul {
-  
+
   display: flex;
   justify-content: space-between;
-  list-style: none ;
+  list-style: none;
   flex: 1;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
@@ -41,16 +41,16 @@ nav ul {
 }
 
 nav li {
-  
+
   padding-right: 10px;
 }
 
-nav ul li a{
+nav ul li a {
   text-decoration: none;
   color: rgb(58, 55, 55);
 }
 
-.current{
+.current {
   color: red;
 }
 
@@ -58,7 +58,7 @@ nav ul li a{
   flex: 1;
 }
 
-.parte-arriba{
+.parte-arriba {
   background-color: white;
   margin-bottom: 20px;
   border-bottom: 1px solid black;
@@ -66,26 +66,26 @@ nav ul li a{
   margin-top: 5px;
 }
 
-.parte-arriba h1{
+.parte-arriba h1 {
   font-size: 60px;
   font-weight: 300;
   letter-spacing: 7px;
-  
+
 }
 
-.parte-arriba span{
+.parte-arriba span {
   font-size: 40px;
   font-weight: 100;
-  
+
 }
 
-.parte-arriba h2{
+.parte-arriba h2 {
   background-color: white;
   margin-top: 20px;
-  
+
 }
 
-.parte-media{
+.parte-media {
   background-color: white;
   display: flex;
   flex-wrap: wrap;
@@ -94,7 +94,7 @@ nav ul li a{
   padding-bottom: 20px;
 }
 
-.parte-media .boton-negro{
+.parte-media .boton-negro {
   color: white;
   font-size: 14px;
   background-color: black;
@@ -104,19 +104,19 @@ nav ul li a{
   padding: 8px;
 }
 
-.articulos-iguales{
+.articulos-iguales {
   display: flex;
   flex-direction: column;
   gap: 20px;
   flex: 1;
 }
 
-.articulos-iguales p{
+.articulos-iguales p {
   font-size: 20px;
   text-align: justify;
 }
 
-.parte-baja{
+.parte-baja {
 
   margin-top: 20px;
   display: flex;
@@ -124,30 +124,30 @@ nav ul li a{
   gap: 40px;
 }
 
-.bajo-izquierda{
+.bajo-izquierda {
 
   display: flex;
   flex-direction: column;
   flex: 1;
 }
 
-.parte-baja{
+.parte-baja {
   gap: 30px;
   margin-bottom: 30px;
 }
 
-.parte-baja p{
+.parte-baja p {
   text-align: justify;
   font-size: 20px;
 }
 
-.parte-baja h4{
+.parte-baja h4 {
 
   color: red;
   font-weight: 400;
 }
 
-.bajo-centro{
+.bajo-centro {
 
   display: flex;
   flex-direction: column;
@@ -157,13 +157,13 @@ nav ul li a{
   padding: 10px;
 }
 
-.bajo-derecha{
+.bajo-derecha {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
 
-footer{
+footer {
 
   background-color: black;
   color: white;
@@ -173,13 +173,7 @@ footer{
   align-items: center;
 }
 
-footer a{
+footer a {
   color: white;
   text-decoration: none;
 }
-
-
-
-
-
-
