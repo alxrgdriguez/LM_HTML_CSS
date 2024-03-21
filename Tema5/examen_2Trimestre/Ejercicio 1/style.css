@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F58220;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+
+    background-color: white;
+    margin: 0 auto;
+    width: 85%;
+
+}
+
+header{
+
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 a{
+
+    text-decoration: none;
+    color: #F58220;
+}
+
+header h1 a:hover{
+
+    color: #4174b4;
+    text-decoration: none;
+}
+
+
+.titulos-header{
+    margin: 20px 30px;
+}
+
+header nav{
+    margin-top: 20px;
+    background-color: black;
+}
+
+
+header nav ul{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 20px;
+    gap: 50px;
+    font-size: 18px;
+    padding: 8px;
+    
+}
+
+header li{
+    list-style: none;
+}
+
+
+header nav ul a{
+
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul a:hover{
+
+    text-decoration: none;
+    font-weight: 30px;
+    font-weight: bold;
+}
+
+
+main{
+
+    display: flex;
+    width: 95%;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin: 30px 40px;
+    justify-content: space-between;
+    text-align: justify;
+
+}
+
+main figure{
+
+    width: 100%;
+}
+
+main img{
+
+    width: 85%;
+    object-fit: fill;
+}
+
+
+.parte-derecha{
+
+    flex: 1;
+    background-color: #657983;
+    height: fit-content;
+    
+}
+
+
+.parte-izquierda{
+    
+    flex: 4;
+}
+
+.parte-izquierda h2 a{
+
+    color: #4174b4;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.parte-izquierda a{
+
+    color: #F58220;
+    text-decoration: none;
+}
+
+#articulo-abajo{
+
+    margin-top: 20px;
+}
+
+.nav-derecha ul{
+
+    margin-left: 25px;
+    list-style: square;
+    margin-bottom: 20px;
+}
+
+
+.nav-derecha ul a:link{
+
+    text-decoration: none;
+    color: white;
+
+}
+.nav-derecha ul a:visited{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-derecha ul a:hover{
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+.parte-derecha h2{
+
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: #333333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+
+footer{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #657983;
+    color: white;
+    padding: 10px;
+}
+
+footer a{
+
+    color: white;
+    text-decoration: none;
+}
+
+
