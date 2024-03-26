@@ -7,7 +7,7 @@
 body{
     background-color: #F58220;
     color: #333333;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #container{
@@ -116,7 +116,7 @@ main img{
 .parte-izquierda h2 a{
 
     color: #4174b4;
-    font-weight: 600;
+    font-weight:500;
     text-decoration: none;
 }
 
@@ -130,6 +130,7 @@ main img{
 
     margin-top: 20px;
 }
+
 
 .nav-derecha ul{
 
