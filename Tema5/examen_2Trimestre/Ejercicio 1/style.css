@@ -14,7 +14,7 @@ body{
 
     background-color: white;
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
 
 }
 
@@ -94,7 +94,7 @@ main figure{
 
 main img{
 
-    width: 85%;
+    width: 70%;
     object-fit: fill;
 }
 
@@ -110,7 +110,7 @@ main img{
 
 .parte-izquierda{
     
-    flex: 4;
+    flex: 5;
 }
 
 .parte-izquierda h2 a{
