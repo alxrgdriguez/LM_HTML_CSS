@@ -112,12 +112,22 @@ main{
     display: flex;
     flex-wrap: wrap;
     margin-left: 5px;
+    
 }
 
+
 .secciones-main ul li{
-    margin: 10px 5px 10px 5px;
+    margin: 10px 40px 10px 5px;
     width: min-content;
+    list-style: none;
+    background-color: #D6A964;
+    border-radius: 10px;
     
+}
+
+.secciones-main ul a{
+
+    color: white;
 }
 
 
