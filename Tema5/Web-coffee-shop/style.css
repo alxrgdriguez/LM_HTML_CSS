@@ -13,7 +13,7 @@ body{
 #container{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    
     margin: 0 auto;
     width: 55%;
     height: auto;
@@ -24,6 +24,7 @@ header{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    
 }
 
 header h1{
@@ -42,6 +43,7 @@ header nav{
     border-radius: 10px;
     margin-top: 8px;
     margin-bottom: 30px;
+    
 }
 
 header nav ul{
@@ -50,6 +52,9 @@ header nav ul{
     margin: 20px;
     gap: 70px;
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
@@ -67,9 +72,32 @@ header nav ul a:hover{
     color: #D6A964;
 }
 
-header img{
+header .img_cafe img{
+    
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius: 10px;
+    
+}
+
+.img_cafe{
     width: 100%;
-    padding-bottom: 20px;
+    height: 400px;
+    
+}
+
+.texto-imagen{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 60%;
+    
+}
+
+.cabeza{
+    margin-bottom: 20px;
+    position: relative;/*Se pone posicion relative al contenedor del posicion absolute*/
 }
 
 
@@ -78,15 +106,19 @@ main{
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
-
 }
 
-section{
-
-
-
+.secciones-main ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
 }
 
+.secciones-main ul li{
+    margin: 10px 5px 10px 5px;
+    width: min-content;
+    
+}
 
 
 
