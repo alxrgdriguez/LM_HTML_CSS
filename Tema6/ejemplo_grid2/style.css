@@ -15,7 +15,7 @@ main{
                          "navegador navegador navegador"
                          "seccion seccion seccion"
                          "lateral lateral lateral"
-                         "pie pie pie";
+                         "pie pie pie"
 
 }
 
@@ -52,13 +52,14 @@ footer{
 
     main{
 
+        
+        grid-template-rows: 10dvh auto 10dvh;
+        grid-template-columns: 20dvw auto auto;
         grid-template-areas: 
         "cabecera cabecera cabecera"
         "navegacion navegacion navegacion"
         "lateral seccion seccion"
-        "footer footer footer";
-        grid-template-rows: 10dvh auto 10dvh;
-        grid-template-columns: 20dvw auto auto;
+        "footer footer footer"
     }
 
 }
