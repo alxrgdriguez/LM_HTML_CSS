@@ -11,7 +11,7 @@ main{
     display: grid;
     width: 100dvw;
     height: 100vh;
-    grid-template-areas: "cabecera, cabecera, cabecera"
+    grid-template-areas: "cabecera cabecera cabecera"
                          "navegador navegador navegador"
                          "seccion seccion seccion"
                          "lateral lateral lateral"
@@ -46,4 +46,19 @@ footer{
 
     background-color: palevioletred;
     grid-area: pie;
+}
+
+@media(min-width: 600px) and (max-width:1000px){
+
+    main{
+
+        grid-template-areas: 
+        "cabecera cabecera cabecera"
+        "navegacion navegacion navegacion"
+        "lateral seccion seccion"
+        "footer footer footer";
+        grid-template-rows: 10dvh auto 10dvh;
+        grid-template-columns: 20dvw auto auto;
+    }
+
 }
