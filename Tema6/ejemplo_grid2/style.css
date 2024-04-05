@@ -9,6 +9,7 @@
 main{
   
     display: grid;
+    height: 100%;
     grid-template-columns: 100% ;
     grid-template-rows: 150px 100px 500px 100px 100px;
     grid-template-areas: "cabecera cabecera cabecera"
@@ -61,4 +62,18 @@ footer{
         "pie pie pie"
     }
 
+}
+
+
+@media(min-width: 1001px){
+    
+    main{
+
+        grid-template-rows: 150px 716px 100px;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-areas: 
+            "cabecera cabecera cabecera"
+            "navegador seccion lateral"
+            "pie pie pie"
+    }
 }
