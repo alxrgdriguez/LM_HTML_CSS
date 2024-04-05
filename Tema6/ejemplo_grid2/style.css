@@ -9,8 +9,8 @@
 main{
   
     display: grid;
-    width: 100dvw;
-    height: 100vh;
+    grid-template-columns: 100% ;
+    grid-template-rows: 150px 100px 500px 100px 100px;
     grid-template-areas: "cabecera cabecera cabecera"
                          "navegador navegador navegador"
                          "seccion seccion seccion"
@@ -52,14 +52,13 @@ footer{
 
     main{
 
-        
-        grid-template-rows: 10dvh auto 10dvh;
-        grid-template-columns: 20dvw auto auto;
+        grid-template-rows: 150px 100px 500px 100px;
+        grid-template-columns: 20% 60% 20%;
         grid-template-areas: 
         "cabecera cabecera cabecera"
-        "navegacion navegacion navegacion"
+        "navegador navegador navegador"
         "lateral seccion seccion"
-        "footer footer footer"
+        "pie pie pie"
     }
 
 }
