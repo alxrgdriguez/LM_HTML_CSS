@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+
+    width: 100vw;
+    height: 100dvh;
+}
+
+main{
+
+    display: grid;
+    grid-template-areas: 
+    "c1 c1 c1"
+    "c2 c3 c4"
+    "c5 c6 c7";
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 1px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color{
+    background-color: rgb(125, 162, 236);
+}
+
+.c1{
+
+    grid-area: c1;
+    
+
+}
+
+.c2{
+
+    grid-area: c2;
+    
+}
+
+.c3{
+
+    grid-area: c3;
+}
+
+.c4{
+
+    grid-area: c4;
+    
+}
+
+.c5{
+
+    grid-area: c5;
+    
+}
+
+.c6{
+
+    grid-area: c6;
+    
+}
+
+.c7{
+
+    grid-area: c7;
+    
+}
