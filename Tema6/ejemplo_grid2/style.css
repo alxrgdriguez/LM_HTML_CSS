@@ -6,74 +6,75 @@
 }
 
 
-main{
-  
-    display: grid;
-    height: 100%;
-    grid-template-columns: 100% ;
-    grid-template-rows: 150px 100px 500px 100px 100px;
-    grid-template-areas: "cabecera cabecera cabecera"
-                         "navegador navegador navegador"
-                         "seccion seccion seccion"
-                         "lateral lateral lateral"
-                         "pie pie pie"
+#container{
+    width: 100dvw;
+    height: 100dvh;
+}
 
+main{
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "section"
+    "aside"
+    "footer";
 }
 
 header{
-    grid-area: cabecera;
-    background-color: blueviolet;
+    grid-area: header;
+    background-color: purple;
 }
 
 nav{
-
-    background-color: rgb(103, 163, 232);
-    grid-area: navegador;
+    grid-area: nav;
+    background-color: aquamarine;
 }
 
 section{
-
-    background-color: purple;
-    grid-area: seccion;
+    grid-area: section;
+    background-color: blueviolet;
 }
 
 aside{
-
-    background-color: pink;
-    grid-area: lateral;
+    grid-area: aside;
+    background-color: gold;
 }
 
 footer{
-
+    grid-area: footer;
     background-color: palevioletred;
-    grid-area: pie;
 }
 
-@media(min-width: 600px) and (max-width:1000px){
+@media (min-width: 600px) and (max-width:1000px){
 
     main{
 
-        grid-template-rows: 150px 100px 500px 100px;
-        grid-template-columns: 20% 60% 20%;
         grid-template-areas: 
-        "cabecera cabecera cabecera"
-        "navegador navegador navegador"
-        "lateral seccion seccion"
-        "pie pie pie"
-    }
+        "header header"
+        "nav nav"
+        "aside section"
+        "footer footer";
+        grid-template-rows: 20dvh 10dvh auto 10dvh;
+        grid-template-columns: 1fr 4fr;
 
+    }
 }
 
+@media (min-width: 1001px){
 
-@media(min-width: 1001px){
-    
     main{
 
-        grid-template-rows: 150px 716px 100px;
-        grid-template-columns: 20% 60% 20%;
         grid-template-areas: 
-            "cabecera cabecera cabecera"
-            "navegador seccion lateral"
-            "pie pie pie"
+        "header header header"
+        "nav section aside"
+        "footer footer footer";
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-rows: 20dvh 70dvh 10dvh ;
+
     }
+
+
 }
