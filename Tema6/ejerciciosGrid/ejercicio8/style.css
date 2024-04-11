@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+
+    width: 50vw;
+    height: 20vh;
+    gap: 1px;
+    display: grid;
+    margin-top: 40px;
+    grid-template-areas: 
+    "c2 c3 c4"
+    "c5 c6 c1";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+#container div{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1{
+    grid-area: c1;
+}
+
+.c2{
+
+    grid-area: c2;
+}
+
+.c3{
+
+    grid-area: c3;
+}
+
+.c4{
+
+    grid-area: c4;
+}
+
+.c5{
+
+    grid-area: c5;
+}
+
+.c6{
+
+    grid-area: c6;
+}
+
