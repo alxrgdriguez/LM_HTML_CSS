@@ -25,11 +25,30 @@ header{
     background-color: blue;
 }
 
+header img{
+
+    border-radius: 10px;
+
+}
+
 nav ul li a{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+nav ul li a:link{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: blue;
+    background-color: white;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 nav ul{
@@ -84,6 +103,12 @@ section a{
     font-size: 30px;
     display: flex;
     justify-content: center;
+}
+
+section a:hover {
+
+    color: black;
+    background-color: greenyellow;
 }
 
 
@@ -141,8 +166,21 @@ h2{
         "perifericos consolas"
         ;
     }
-    
 
+ 
+    nav ul{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    nav ul li a{
+     
+        font-size: 30px;
+    }
 
 }
 
@@ -158,6 +196,26 @@ h2{
         "sobremesa portatil smartphones"
         "impresoras perifericos consolas";
     }
-    
+
+    nav ul{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
     }
+
+    nav ul li a{
+     
+        font-size: 30px;
+    }
+
+    section a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
     
