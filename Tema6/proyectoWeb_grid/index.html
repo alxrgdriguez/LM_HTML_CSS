@@ -16,11 +16,23 @@
     <div id="contenedor">
         <header>
 
-            <div class="iniciales">
-                <h2>A<span>R</span></h2>
-            </div>
+
+
 
             <nav>
+                <div class="iniciales">
+                    <h2><span>A</span>R</h2>
+                </div>
+                <label class="label_hamburguesa" for="menu_hamburguesa">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="list_icon"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </label>
+
+                <input class="menu_hamburguesa" type="checkbox" name="" id="menu_hamburguesa">
+
                 <ul id="header-menu" class="header-menu">
                     <li><a class="header-menu__link activo" href="index.html">Inicio</a></li>
                     <li><a class="header-menu__link" href="#">Sobre mí</a></li>
@@ -36,13 +48,19 @@
             <section class="info-contenido">
 
                 <h1>Soy <span>Alejandro</span> Rodríguez</h1>
-                <p>Apasionado estudiante de Desarrollo de Aplicaciones Web en el IES Jaroso, con un enfoque dedicado y
+                <p class="descrip-inicio">Apasionado estudiante de Desarrollo de Aplicaciones Web en el IES Jaroso, con
+                    un enfoque dedicado y
                     curioso hacia la tecnología y la programación. Poseo habilidades sólidas en el desarrollo web,
                     incluyendo HTML, CSS y JavaScript, así como experiencia práctica en la creación de sitios y
-                    aplicaciones web funcionales y atractivos. Comprometido con el aprendizaje continuo y la mejora
+                    aplicaciones web funcionales y atractivos.
+                </p>
+                <br />
+                <p class="descrip-inicio">Comprometido con el aprendizaje continuo y la
+                    mejora
                     constante, busco oportunidades para expandir mis conocimientos y contribuir de manera significativa
                     en proyectos desafiantes. Con una mentalidad creativa y analítica, estoy motivado para crecer
-                    profesionalmente y hacer una diferencia en el mundo digital.</p>
+                    profesionalmente y hacer una diferencia en el mundo digital.
+                </p>
 
                 <a download="" href="#">
                     <button class="descargar-cv"> Descargar CV</button>
@@ -55,19 +73,25 @@
 
         <footer>
 
-            <h2 class="border">Skills</h2>
-            <h2 class="wave">Skills</h2>
+            <div class="animacion">
+                <h2 class="border">Skills</h2>
+                <h2 class="wave">Skills</h2>
+            </div>
 
 
             <figure class="footer-logos">
+                <div class="bloqueImagen">
+                    <img src="./img/logos_redes/html5.svg" alt="html">
+                    <img src="./img/logos_redes/css.svg" alt="css">
+                    <img src="./img/logos_redes/javascript.svg" alt="javascript">
 
-                <img src="./img/logos_redes/github.svg" alt="github">
-                <img src="./img/logos_redes/git.svg" alt="git">
-                <img src="./img/logos_redes/html5.svg" alt="">
-                <img src="./img/logos_redes/css.svg" alt="css">
-                <img src="./img/logos_redes/javascript.svg" alt="javascript">
-                <img src="./img/logos_redes/linux.svg" alt="linux">
 
+                </div>
+                <div class="bloqueImagen">
+                    <img src="./img/logos_redes/github.svg" alt="github">
+                    <img src="./img/logos_redes/linux.svg" alt="linux">
+                    <img src="./img/logos_redes/git.svg" alt="git">
+                </div>
             </figure>
 
         </footer>
