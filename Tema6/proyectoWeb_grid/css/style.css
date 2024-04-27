@@ -53,9 +53,6 @@ footer {
 }
 
 /*--- Header index --- */
-
-.iniciales {}
-
 .iniciales h2 {
     color: white;
 }
@@ -90,7 +87,6 @@ section p {
     width: 300px;
 }
 
-section {}
 
 .mi-imagen img {
     width: 340px;
