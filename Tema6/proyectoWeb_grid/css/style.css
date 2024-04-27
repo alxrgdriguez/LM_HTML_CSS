@@ -144,6 +144,7 @@ section p {
 main figure {
 
     margin: 0 auto;
+    padding-top: 40px;
 }
 
 .descargar-cv {
@@ -251,7 +252,7 @@ footer .footer-logos .bloqueImagen img {
     #contenedor {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 200px auto 400px;
+        grid-template-rows: 100px auto 400px;
         grid-template-areas:
             "cabecera cabecera"
             "cuerpo cuerpo"
@@ -260,7 +261,56 @@ footer .footer-logos .bloqueImagen img {
 
     main {
         display: flex;
-        gap: 20%;
+        gap: 9%;
+    }
+
+    main section p {}
+
+    .label_hamburguesa {
+        display: none;
+    }
+
+    .header-menu {
+        position: static;
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+
+
+    nav ul li a:hover {
+        background-color: aqua;
+        color: #191c32;
+        border-radius: 3px;
+        transition: ease-in 0.3s;
+    }
+
+    footer .animacion h2 {
+        margin-left: 40%;
+    }
+
+    main figure {
+        padding-top: 0px;
+    }
+
+}
+
+@media (min-width: 1025px) {
+
+    #contenedor {
+        max-width: 100vw;
+        max-height: 100vh;
+        /*display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 200px auto 100px;
+        grid-template-areas:
+            "cabecera cabecera cabecera"
+            "cuerpo cuerpo cuerpo"
+            "pie pie pie";*/
+            display: flex;
+            flex-direction: column;
     }
 
     .label_hamburguesa {
@@ -274,4 +324,37 @@ footer .footer-logos .bloqueImagen img {
         flex-direction: row;
         gap: 2rem;
     }
+
+    main {
+        display: flex;
+        /*gap: 16%;*/
+    }
+
+    main .info-contenido {
+        width: 50%;
+    }
+
+    main .info-contenido p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    main .mi-imagen{
+       width: 30%;
+       margin-left: 50px;
+    }
+
+    main .mi-imagen img{
+     
+       width: 100%;
+    }
+
+    main figure {
+        padding-top: 0px;
+    }
+
+    header{
+        margin-left: -10px;
+    }
+    
 }
