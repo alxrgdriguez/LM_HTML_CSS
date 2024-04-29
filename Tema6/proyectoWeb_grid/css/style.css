@@ -402,7 +402,13 @@ footer .footer-logos .bloqueImagen img {
         display: flex;
         justify-content: space-between;
         gap: 100px;
+
     }
 
+    .animacion {
+        padding-left: 15.5%;
+    }
+
+    .animacion h2 {}
 
 }
