@@ -73,6 +73,16 @@ main {
     margin: 0 auto;
 }
 
+section {
+    grid-area: seccion;
+}
+
+.mi-imagen {
+    grid-area: yo;
+}
+
+
+
 main section .descrip-inicio {
     text-align: justify;
     line-height: 26px;
@@ -140,6 +150,12 @@ section p {
 
 }
 
+main img {
+    mask-image: linear-gradient(#191c32 50%,
+            transparent);
+
+}
+
 
 main figure {
 
@@ -191,8 +207,6 @@ footer .animacion h2 {
     width: 60vw;
     height: 100px;
     margin-top: 5px;
-    /*border-top: 2px solid white;
-    border-bottom: 2px solid white;*/
 }
 
 .wave {
@@ -219,8 +233,16 @@ footer .footer-logos .bloqueImagen img {
     width: 80px;
 }
 
+/* Animación de olas */
+
 @keyframes wave {
 
+    /*La animación comienza con la forma de onda inicial (0%).
+    A medida que avanza la animación (0% a 50%), la parte inferior de la onda se abomba hacia arriba, 
+    creando una forma de onda más pronunciada.*/
+
+    /*Luego, la animación se invierte (50% a 100%), la parte inferior de la onda 
+    se aplana nuevamente, regresando a la forma inicial.*/
     0%,
     100% {
         clip-path: polygon(0% 47%,
@@ -234,6 +256,8 @@ footer .footer-logos .bloqueImagen img {
                 0% 100%);
     }
 
+    /*En el punto medio (50%), la onda alcanza su punto máximo, con la parte inferior 
+    del polígono curvándose hacia arriba lo más posible.*/
     50% {
         clip-path: polygon(0% 60%,
                 15% 65%,
@@ -246,6 +270,8 @@ footer .footer-logos .bloqueImagen img {
                 0% 100%);
     }
 }
+
+/*Media Query Tablet*/
 
 @media (min-width: 768px) and (max-width:1024px) {
 
@@ -264,7 +290,9 @@ footer .footer-logos .bloqueImagen img {
         gap: 9%;
     }
 
-    main section p {}
+    header {
+        padding: 20px 10px;
+    }
 
     .label_hamburguesa {
         display: none;
@@ -297,20 +325,16 @@ footer .footer-logos .bloqueImagen img {
 
 }
 
+/*Media Query Ordenador*/
+
 @media (min-width: 1025px) {
 
     #contenedor {
-        max-width: 100vw;
-        max-height: 100vh;
-        /*display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 200px auto 100px;
-        grid-template-areas:
-            "cabecera cabecera cabecera"
-            "cuerpo cuerpo cuerpo"
-            "pie pie pie";*/
-            display: flex;
-            flex-direction: column;
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+
     }
 
     .label_hamburguesa {
@@ -325,13 +349,26 @@ footer .footer-logos .bloqueImagen img {
         gap: 2rem;
     }
 
+    header {
+        padding: 20px 10px;
+    }
+
     main {
-        display: flex;
-        /*gap: 16%;*/
+        padding-top: 30px;
+        display: grid;
+        grid-template-columns: 1000px auto 600px;
+        grid-template-rows: 520px;
+        grid-template-areas: "seccion seccion yo";
+    }
+
+    main section h1 {
+        margin-bottom: 20px;
+        font-size: 34px;
     }
 
     main .info-contenido {
-        width: 50%;
+        width: 82%;
+
     }
 
     main .info-contenido p {
@@ -339,22 +376,33 @@ footer .footer-logos .bloqueImagen img {
         font-size: 20px;
     }
 
-    main .mi-imagen{
-       width: 30%;
-       margin-left: 50px;
+    .mi-imagen img {
+        width: 300px;
+
     }
 
-    main .mi-imagen img{
-     
-       width: 100%;
+    main .mi-imagen {
+        width: 35%;
+        margin-left: 50px;
+        margin-top: 10px;
     }
 
-    main figure {
-        padding-top: 0px;
+    section {
+        margin-top: 30px;
     }
 
-    header{
-        margin-left: -10px;
+    main .mi-imagen img {
+
+        width: 166%;
     }
-    
+
+
+    footer .footer-logos .bloqueImagen {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+    }
+
+
 }
