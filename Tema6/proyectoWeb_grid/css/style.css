@@ -181,6 +181,49 @@ main figure {
 
 }
 
+/*FIN Main index movil*/
+
+/*Main educacion.html*/
+
+.contendor-educacion {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 50px;
+    grid-template-areas:
+        "educacion experiencia";
+}
+
+.linea-tiempo-colum {
+    padding: 10px;
+}
+
+.main-educacion {
+    padding: 20px;
+}
+
+.main-educacion .titulo {
+    font-size: 2.5rem;
+}
+
+.linea-tiempo-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.educacion-caja {
+    padding: 14px;
+}
+
+.contendor-educacion {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    grid-template-areas:
+        "educacion";
+}
+
+
 
 /*Footer index*/
 footer {
@@ -233,6 +276,7 @@ footer .footer-logos .bloqueImagen img {
     width: 80px;
 }
 
+
 /* Animación de olas */
 
 @keyframes wave {
@@ -271,7 +315,9 @@ footer .footer-logos .bloqueImagen img {
     }
 }
 
-/*Media Query Tablet*/
+/*FIN Footer index Movil*/
+
+/*Media Query Tablet INDEX*/
 
 @media (min-width: 768px) and (max-width:1024px) {
 
@@ -323,9 +369,13 @@ footer .footer-logos .bloqueImagen img {
         padding-top: 0px;
     }
 
+    /*FIN Media Query Tablet INDEX*/
+
 }
 
-/*Media Query Ordenador*/
+
+
+/*Media Query Ordenador INDEX*/
 
 @media (min-width: 1025px) {
 
@@ -408,5 +458,7 @@ footer .footer-logos .bloqueImagen img {
     .animacion {
         padding-left: 15.5%;
     }
+
+    /*FIN Media Query Ordenador INDEX*/
 
 }
