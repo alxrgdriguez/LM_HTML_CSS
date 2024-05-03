@@ -183,45 +183,83 @@ main figure {
 
 /*FIN Main index movil*/
 
-/*Main educacion.html*/
+/*Main educacion.html movil*/
 
 .contendor-educacion {
-    width: 100%;
+    max-width: 100%;
+    
+   
+}
+
+.main-educacion{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 50px;
-    grid-template-areas:
-        "educacion experiencia";
+    grid-template-columns: 1fr;
+    grid-template-rows: 800px 440px;
+    grid-template-areas: "educacion"
+                         "experiencia";
 }
 
-.linea-tiempo-colum {
-    padding: 10px;
+
+.educacion-caja{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.main-educacion {
-    padding: 20px;
+.main-educacion .titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: aqua;
+    border: 1px solid white;
 }
 
-.main-educacion .titulo {
-    font-size: 2.5rem;
+.main-educacion h3{
+
+    font-size: 24px;
+    margin-bottom: 10px;
+} 
+
+.main-educacion p{
+    font-size: 16px;
 }
 
-.linea-tiempo-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+
+.experiencia-caja{
+    margin-top: 30px;
 }
 
-.educacion-caja {
-    padding: 14px;
+.experiencia-caja .date .bx{
+    color: aquamarine;
 }
 
-.contendor-educacion {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    grid-template-areas:
-        "educacion";
+.educacion-caja .date .bx{
+    color: aquamarine;
+}
+
+.main-educacion .bx{
+    color: aqua;
+    font-size: 18px;
+
+}
+
+.seccion-educacion{
+    grid-area: educacion;
+}
+
+.seccion-experiencia{
+    grid-area: experiencia;
+}
+
+
+.main-educacion h2{
+
+    font-size: 30px;
+}
+
+.main-educacion h2{
+    font-size: 20px;
+    box-shadow: 1px 1px 20px -3px rgba(102, 231, 200, .70);
 }
 
 
