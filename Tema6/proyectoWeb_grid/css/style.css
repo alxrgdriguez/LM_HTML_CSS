@@ -194,7 +194,7 @@ main figure {
 .main-educacion{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 800px 440px;
+    grid-template-rows: 900px 860px;
     grid-template-areas: "educacion"
                          "experiencia";
 }
@@ -227,6 +227,18 @@ main figure {
 
 .experiencia-caja{
     margin-top: 30px;
+}
+
+.educacion-caja{
+    border: 2px solid aquamarine;
+    box-shadow: 1px 1px 18px -3px rgba(102, 231, 200, .70);
+    padding: 20px;
+}
+
+.experiencia-caja{
+        border: 2px solid aquamarine;
+        box-shadow: 1px 1px 20px -3px rgba(102, 231, 200, .70);
+        padding: 20px;
 }
 
 .experiencia-caja .date .bx{
