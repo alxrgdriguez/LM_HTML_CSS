@@ -549,13 +549,13 @@ footer .footer-logos .bloqueImagen img {
     /*Main educacion.html Ordenador*/
 
     .contenedor-educacion {
-        width: 120%;
+        width: 180%;
         padding-left: 15%;
     }
 
     .main-educacion .educacion-caja,
     .experiencia-caja {
-        height: 240px;
+        height: 220px;
     }
 
     .seccion-educacion {
