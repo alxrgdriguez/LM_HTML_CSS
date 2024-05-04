@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+html {
+    max-width: 100%;
+    min-height: 100%;
+}
+
 
 * {
     margin: 0;
@@ -190,21 +195,21 @@ main figure {
     min-height: 100%;
 }
 
-.seccion-educacion{
+.seccion-educacion {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 800px;
     grid-template-areas: "educacion"
-                         "experiencia";
+        "experiencia";
 }
 
 
-.educacion-caja{
+.educacion-caja {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.main-educacion .titulo{
+.main-educacion .titulo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,64 +218,64 @@ main figure {
     border: 1px solid white;
 }
 
-.main-educacion h3{
+.main-educacion h3 {
 
     font-size: 24px;
     margin-bottom: 10px;
-} 
+}
 
-.main-educacion p{
+.main-educacion p {
     font-size: 16px;
 }
 
 
-.experiencia-caja{
+.experiencia-caja {
     margin-top: 30px;
 }
 
-.educacion-caja{
+.educacion-caja {
     border: 2px solid aqua;
-    box-shadow: 1px 1px 18px -3px rgba(102, 231, 200, .70);
+    box-shadow: 1px 1px 11px -3px rgba(102, 231, 200, .70);
     padding: 20px;
 }
 
-.experiencia-caja{
-        border: 2px solid aqua;
-        box-shadow: 1px 1px 20px -3px rgba(102, 231, 200, .70);
-        padding: 20px;
+.experiencia-caja {
+    border: 2px solid aqua;
+    box-shadow: 1px 1px 11px -3px rgba(102, 231, 200, .70);
+    padding: 20px;
 }
 
-.experiencia-caja .date .bx{
+.experiencia-caja .date .bx {
     color: aquamarine;
 }
 
-.educacion-caja .date .bx{
+.educacion-caja .date .bx {
     color: aquamarine;
 }
 
-.main-educacion .bx{
+.main-educacion .bx {
     color: aqua;
     font-size: 18px;
 
 }
 
-.seccion-educacion{
+.seccion-educacion {
     grid-area: educacion;
 }
 
-.seccion-experiencia{
+.seccion-experiencia {
     grid-area: experiencia;
 }
 
 
-.main-educacion h2{
+.main-educacion h2 {
 
     font-size: 30px;
 }
 
-.main-educacion h2{
+.main-educacion h2 {
     font-size: 20px;
-    box-shadow: 1px 1px 20px -3px rgba(102, 231, 200, .70);
+    box-shadow: 1px 1px 10px -3px rgba(102, 231, 200, .70);
 }
 
 /*Main educacion.html movil FIN*/
@@ -424,7 +429,7 @@ footer .footer-logos .bloqueImagen img {
 
     /*Main educacion.html tablet*/
 
-    .contenedor-educacion{
+    .contenedor-educacion {
         max-width: 100%;
         min-height: 100%;
         padding-left: 25%;
@@ -432,22 +437,26 @@ footer .footer-logos .bloqueImagen img {
     }
 
 
-    .main-educacion .educacion-caja, .experiencia-caja{
+    .main-educacion .educacion-caja,
+    .experiencia-caja {
         height: 340px;
     }
 
-    .seccion-educacion{
+    .seccion-educacion {
         display: grid;
         justify-content: center;
         gap: 20px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 750px 40px;
         grid-template-areas: "educacion experiencia"
-                             "educacion experiencia";
+            "educacion experiencia";
     }
 
+    /*Main educacion.html tablet FIN*/
 
 }
+
+
 
 
 
@@ -536,5 +545,37 @@ footer .footer-logos .bloqueImagen img {
     }
 
     /*FIN Media Query Ordenador INDEX*/
+
+    /*Main educacion.html Ordenador*/
+
+    .contenedor-educacion {
+        width: 120%;
+        padding-left: 15%;
+    }
+
+    .main-educacion .educacion-caja,
+    .experiencia-caja {
+        height: 240px;
+    }
+
+    .seccion-educacion {
+        gap: 40px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 2fr 2fr 1fr;
+        grid-template-rows: 100px 100px 100px;
+        grid-template-areas: "educacion experiencia"
+            "educacion experiencia"
+            "educacion experiencia";
+    }
+
+    .main-educacion {
+        padding: 80px;
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+    }
+
 
 }
