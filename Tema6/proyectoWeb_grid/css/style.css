@@ -13,9 +13,6 @@ html {
 
 }
 
-img {
-    max-width: 100%;
-}
 
 body {
 
@@ -736,7 +733,7 @@ footer .footer-logos .bloqueImagen img {
     }
 
     .mi-imagen img {
-        width: 300px;
+        width: 60%;
 
     }
 
