@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-html {
+
+html{
     max-width: 100%;
-    min-height: 100%;
 }
 
 
@@ -425,7 +425,6 @@ main figure {
     max-width: 100%;
     margin-top: 40px;
     border-radius: 6px;
-    overflow: hidden;
     background-color: #191c32;
     box-shadow: 1px 1px 13px -1px rgba(62, 142, 198, 0.7);
     transition: all 400ms ease-out;
@@ -849,8 +848,55 @@ footer .footer-logos .bloqueImagen img {
         padding: 1rem;
     }
 
-    
+    /*MAIN SERVICIOS ORDENADOR */
 
+    .seccion-Servicios {
+        max-width: 50%;
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    .container-card{
+        margin-bottom: 60px;
+    }
+
+    .card img{
+        width: 300px;
+    }
+    .card1{
+        display: flex;
+        grid-area: Dniowebs;
+    }
+
+    .card2{
+        display: flex;
+        grid-area: programacion;
+    }
+
+    .card3{
+        display: flex;
+        grid-area: DWeb;
+
+    }
+
+    .card4{
+        display: flex;
+        grid-area: administrador;
+    }
+
+    .card5{
+        display: flex;
+        grid-area: bbdd;
+    }
+
+    .card6{
+        display: flex;
+        grid-area: entornos;
+    }
+    
+    
+    /*MAIN SERVICIOS ORDENADOR FIN */
 
 
 
